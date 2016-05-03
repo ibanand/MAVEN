@@ -1,0 +1,19 @@
+For Ubuntu
+->Go to http://www.oracle.com/technetwork/java/javase/downloads/  index.html
+-->Download jdK package for Java SE 8u91 / 8u92
+-->go to download location and run the command for extract : tar xzvf jdk-8u91-linux-x64.tar.gz 
+-->sudo mkdir -pv /usr/local/java
+-->move extracted file to /usr/local/java :sudo mv jdk1.8.0_91 /usr/local/java/
+
+Set Path variable as:
+
+export JAVA_HOME=/usr/local/java/jdk1.8.0_91
+export PATH=$JAVA_HOME/bin:${PATH}
+
+you are done 
+
+check java -version
+      javac -version
+
+similiarly do for redhat
+
